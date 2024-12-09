@@ -83,9 +83,10 @@ The project utilizes a CSV dataset (`Crime_Data_from_2020_to_Present_20241125.cs
    - Frequency of crime types.
    - Identification of most frequent crime types and areas with high crime rates.
   
+---
 
 
-**Crime Data Visualization and Analysis Using QGIS**
+# Crime Data Visualization and Analysis Using QGIS
 
 ---
 
@@ -162,7 +163,7 @@ This project visualizes and analyzes crime data using QGIS. The geospatial data 
 
 ---
 
-# Crime Series Analysis Report
+# Crime Series Analysis Report using PowerBI
 
 This report provides a detailed analysis of crime incidents within various geographic areas, based on the dataset from the Los Angeles Police Department (LAPD). The analysis aims to uncover trends, patterns, and key insights into crime occurrences, victim demographics, and crime types over the years. The report is built using Power BI and visualizes the crime data with the help of interactive charts and graphs.
 
