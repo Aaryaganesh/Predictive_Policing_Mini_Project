@@ -157,3 +157,56 @@ This project visualizes and analyzes crime data using QGIS. The geospatial data 
   - Clustered crime patterns.
 ![Screenshot 2024-12-09 162318](https://github.com/user-attachments/assets/177ac864-86cf-4bdf-a88c-e459616bef35)
 
+
+
+
+---
+
+# Crime Series Analysis Report
+
+This report provides a detailed analysis of crime incidents within various geographic areas, based on the dataset from the Los Angeles Police Department (LAPD). The analysis aims to uncover trends, patterns, and key insights into crime occurrences, victim demographics, and crime types over the years. The report is built using Power BI and visualizes the crime data with the help of interactive charts and graphs.
+
+## Key Insights:
+
+### 1. *Total Crimes and Average Victim Age:*
+   - *Total Crimes:* The total number of crimes recorded in the dataset is *984K*.
+   - *Average Victim Age:* The average age of victims across all recorded crimes is *28.97* years. This helps understand the age group most affected by crimes.
+
+### 2. *Status of Crimes:*
+   - The *Status of the crimes* is represented by a pie chart, showing the different statuses of criminal cases. 
+     - *Investigation Ongoing (Invest Cont)* represents *8.74%* (86K cases).
+     - *Adult Other* represents *10.92%* (107K cases).
+     - *Adult Arrest* accounts for *79.83%* (786K cases), indicating that the majority of cases have an arrest associated with them.
+     - *Juvenile Arrest* and *Unknown* statuses also contribute to the dataset, with *Unknown* being a significant portion at *10.92%*.
+
+### 3. *Crime Count by Year:*
+   - The line chart illustrates the *Crime Count by Year* from 2020 to 2024. 
+     - There was a *sharp decline in crime counts in 2023*, suggesting potential changes in crime patterns, law enforcement activity, or reporting.
+     - The year *2021* saw a peak in crime counts, which might have been influenced by specific external factors or law enforcement efforts.
+     - *2022* shows a decrease, but the count remains relatively high compared to 2023 and 2024.
+
+### 4. *Top 5 Crime Types by Year:*
+   - The stacked bar chart highlights the *Top 5 Crime Types by Year*.
+     - *Battery - Simple Assault* is consistently one of the most frequent crime types, with *Battery* showing a particularly high number of cases.
+     - *Burglary* and *Vehicle Theft* are also notable crimes, with fluctuating counts year over year.
+     - The stacked chart allows for an understanding of how the distribution of crime types varies across different years, showcasing specific shifts in crime patterns over time.
+
+### 5. *Crime Count by Crime Type:*
+   - A detailed *Treemap* visualization breaks down crime counts by *crime type*. 
+     - *Vehicle Theft* stands out with *111K* crimes, followed closely by *Burglary (62K)* and *Theft of Identity (61K)*.
+     - Other significant crime types include *Battery - Simple Assault (74K)* and *Vandalism (60K)*.
+     - The treemap allows a visual comparison of crime types and their prevalence in the dataset, providing a clear overview of the most common types of crime.
+
+---
+
+### Technologies Used:
+- *Power BI* for visualization and interactive analysis
+- *Dataset:* LAPD Crime Data (Available from the LA City GeoHub)
+
+### How to Use the Report:
+- The interactive visualizations in this report allow for filtering crime data based on *Area Names, **Crime Types, and **Year*.
+- Click on elements of the charts, such as specific crime types or areas, to drill down into the data and explore more detailed insights.
+- Hover over elements to view specific data points such as total crime count, victim age, and more.
+
+
+![Screenshot_2024-12-09_172750 1](https://github.com/user-attachments/assets/68cb56f6-b1f9-44e0-9ab7-f954fdedae09)
